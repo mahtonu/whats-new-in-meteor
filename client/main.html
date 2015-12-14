@@ -1,0 +1,218 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Noteworthy updates since Meteor 1.0">
+	<meta name="keywords" content="Meteor, Reactjs, Angular Meteor, ECMAScript 2015, Microsoft Windows, MongoDB 3.0, Meteor Galaxy, NPM, Node, native npm, Meteor Dhaka, React">
+	<meta name="author" content="M A Hossain Tonu">
+	<meta property="og:url"            content="http://whatsnewin.meteor.com/" />
+	<meta property="og:type"           content="article" />
+	<meta property="og:title"          content="What's new in Meteor" />
+	<meta property="og:description"    content="Noteworthy updates since Meteor 1.0" />
+	<meta property="og:image"          content="http://warehouse.meteor.com/mother-assets/meteor-logo-final.png" />
+	<title>Meteor December Meetup 2015</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" />
+</head>
+<body>
+	<div class="container">
+		<h1>What's new in Meteor</h1>
+		<h2><span class="step1">since</span> <span class="step2">1.0</span> <span class="step3">to Future</span></h2>
+
+		<p class="lead">Noteworthy updates since Meteor 1.0</p>
+
+		<div id="timeline" class="timeline-container">
+
+			<button class="timeline-toggle">+ expand all</button>
+
+			<br class="clear">
+
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>1.1</span></h2>
+				<dl class="timeline-series">
+					<span class="tick tick-before"></span>
+					<dt id="cars"><a style="font-size: 1em;" class="closed">Microsoft Windows Support</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="carsEX">
+						<div class="media">
+							<a href="#" class="venobox vbox-item" data-type="youtube" data-overlay="rgba(0,0,0,0.5)"><img src="images/windows-logo.png" alt="flying car"></a>
+							<p><a href="http://info.meteor.com/blog/meteor-11-microsoft-windows-mongodb-30" class="venobox vbox-item" data-type="youtube" data-overlay="rgba(0,0,0,0.5)">Read More</a></p>
+						</div><!-- /.media -->
+						<p>March 31, 2015 </p>
+						<p>The Meteor 1.1 release adds first-class official support for developing applications software on Microsoft Windows 7, Windows 8.1, Windows Server 2008, and Windows Server 2012. A <a href="https://www.meteor.com/install">native installer</a> includes all the key parts of the Meteor SDK, including Windows-specific Node.js binaries and the MongoDB database engine.</p>
+						<p>Teams with a mix of development platforms can collaborate on an app; a single Meteor codebase will work unchanged on any combination of Windows, OS X, and Linux computers. </p>
+						<p>Package authors — on any platform — can publish their libraries for Windows developers right alongside the builds for OS X and Linux</p>
+						<p>You get all your favorite parts of the Meteor toolchain on Windows, including the <code>meteor mongo</code> database tool, <code>meteor shell</code>, and of course access to our free application hosting servers using <code>meteor deploy</code>.</p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+					<span class="tick tick-before"></span>
+					<dt id="robots"><a>MongoDB 3.0 Support</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="robotsEX">
+						<div class="media">
+							<a href="#" class="venobox vbox-item" data-type="youtube" data-overlay="rgba(0,0,0,0.5)"><img src="images/logo-mongodb_1.png" alt="singing robots"></a>
+							<p><a href="http://info.meteor.com/blog/meteor-11-microsoft-windows-mongodb-30" class="venobox vbox-item" data-type="youtube" data-overlay="rgba(0,0,0,0.5)">Read more</a></p>
+						</div><!-- /.media -->
+						<p>March 31, 2015 </p>
+						<p>
+						MongoDB, last month saw the 
+						<a href="http://www.mongodb.com/blog/post/announcing-mongodb-30">release of MongoDB 3.0</a>
+						, a major rewrite that brings massive improvements to MongoDB's performance and scalability thanks to a new 
+						<a href="http://www.wiredtiger.com/">WiredTiger storage engine</a>
+						. Meteor (beginning with the 1.0.4 release) supports both MongoDB 3.0 as well as the older MongoDB 2.6. You can use either engine in production with a Meteor app. Meteor ships with MongoDB 2.6; we will keep a close eye on the maturation of MongoDB 3.0 and transition to it as the default MongoDB engine in a future release.
+						</p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>1.2</span></h2>
+				<dl class="timeline-series">
+					<span class="tick tick-before"></span>
+					<dt id="ECMAScript"><a>Meet ECMAScript 2015</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="ECMAScriptEX">
+
+						<div class="media">
+							<a href="https://www.youtube.com/watch?v=05Z6YGiZKmE" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)"><img src="images/es6-logo.png" alt="es6"></a>
+							<p><a href="#" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)">Read more</a></p>
+						</div><!-- /.media -->
+						<p>September 22, 2015</p>
+						<p>Beginning today, ECMAScript 2015 is now the official JavaScript of the Meteor platform. Every new Meteor project now uses ES2015 by default, in every JS file.  Want to use ES2015 in an existing app?  Just add the new <code>ecmascript</code> package.</p>
+						<p>MDG taken great care to make the ES2015 support 100% backwards compatible: your existing code will continue to work unchanged, and you can make the transition incrementally mixing and matching new ES2015 and traditional JavaScript, even in the same files and functions.</p>
+						<p>To learn more about ES2015, worth watching  
+<a href="https://www.youtube.com/watch?v=05Z6YGiZKmE">Ben Newman's recent Devshop talk</a></p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+					<span class="tick tick-before"></span>
+					<dt id="react"><a>Official support for Angular and React</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="reactEX">
+
+						<div class="media">
+							<a href="#" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)"><img src="images/ng-meteor.png" alt="ng-meteor"></a>
+							<p><a href="#" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)">Try It Now</a></p>
+						</div><!-- /.media -->
+						<div class="media">
+							<a href="#" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)"><img src="images/react-logo.png" alt="reactjs"></a>
+							<p><a href="#" class="venobox vbox-item" data-type="iframe" data-overlay="rgba(0,0,0,0.5)">Try It Now</a></p>
+						</div><!-- /.media -->
+						<p>September 22, 2015</p>
+						<p>Meteor now includes official support for the Angular and React view engines alongside traditional Blaze templates.  No matter which you choose, the rest of the Meteor stack works for you – live database queries, Optimistic UI updates, hot code push, and ES2015 features seamlessly tie in to all three engines.  As you'd expect, components and other libraries built on React or Angular work well too.</p>
+												<p>Want a quick look at what each of the three options looks like in practice?  We've got a Meteor tutorial in each flavor:
+						<a href="https://www.meteor.com/tutorials/blaze/creating-an-app">Blaze</a>
+						,
+						<a href="https://www.meteor.com/tutorials/react/creating-an-app">React</a>
+						, and
+						<a href="https://www.meteor.com/tutorials/angular/creating-an-app">Angular</a>
+						.  Try them out, or use them as starting points for your own codebase.  The React integration is a new set of MDG-maintained packages that build on the great React work done by the community.  For Angular, we've pulled the popular 
+						<code>urigo:angular</code></p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+					<span class="tick tick-before"></span>
+					<dt id="mobile"><a>Mobile development</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="mobileEX">
+
+						<p></p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+
+					<span class="tick tick-before"></span>
+					<dt id="fast"><a>Faster builds and a more flexible platform</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: none;" class="timeline-event-content" id="fastEX">
+						<p></p>
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+					
+				</dl><!-- /.timeline-series -->
+
+			</div><!-- /.timeline-wrapper -->
+
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>Meteor Galaxy</span></h2>
+				<dl class="timeline-series">
+					<span class="tick tick-before"></span>
+					<dt id="enterprise"><a>Enterprise Edition</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: block;" class="timeline-event-content" id="enterpriseEX">
+
+						<div class="media">
+							
+						</div><!-- /.media -->
+
+						<p>October 05, 2015</p>
+						<p><img src="images/galaxy.png" alt=""></p>
+						<p>Galaxy is a cloud service for managing Meteor applications. You deploy Meteor apps into Galaxy with the same <code>meteor deploy</code> command you're already used to, and you get turn-the-dial scaling to run as many copies of the app as you need. As you'd expect, it also has the day-to-day basics you need, like application logs and SSL cert management.</p>
+						<p>You'll see connected client tracking front and center in Galaxy, starting with a chart of exactly how many devices are connected to your Meteor app, updated in real time.  Alongside that we also provide system-level container metrics tracking the CPU and memory usage of each application container, giving you the information you need to update your app.</p>
+						<p><a href="https://www.meteor.com/why-meteor/pricing" target="_blank">Learn more.</a></p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+					<span class="tick tick-before"></span>
+					<dt id="developer"><a>Developer Edition</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: block;" class="timeline-event-content" id="developerEX">
+
+						<div class="media">
+						</div><!-- /.media -->
+
+						<p>November 30, 2015</p>
+						<p><img src="images/galaxy.png" alt=""></p>
+						<p>Initially, Galaxy Developer Edition will cost $0.035/GB/hour, which computes to roughly $13 per container per month (initially limited to a maximum 5 x 512 MB containers, spot instances). Developers will be able to deploy Meteor apps to Galaxy with a single command, and run them for small groups of users. You’ll be able to view the past five minutes of metrics tracking the number of connected clients, as well as CPU and memory usage, for your app overall, and for each individual container.</p>
+						<p><a href="http://info.meteor.com/blog/galaxy-developer-edition" target="_blank">Learn more.</a></p>
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+
+				</dl>
+			</div>
+
+
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>1.3 - beta</span></h2>
+				<dl class="timeline-series">
+					<span class="tick tick-before"></span>
+					<dt id="npm"><a>Native NPM support</a></dt>
+					<span class="tick tick-after"></span>
+					<dd style="display: block;" class="timeline-event-content" id="npmEX">
+
+						<div class="media">
+							<img src="images/npm-logo.png" alt="">
+						</div><!-- /.media -->
+
+						<p>Apart from the module support, it has native NPM support. That means, you could import NPM packages inside the <code>node_modules</code> directory. So, sooner or later we may need to publish our packages to NPM rather to Atmosphere.</p>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+				</dl>
+			</div>
+
+			<button class="timeline-toggle">+ expand all</button>
+
+			<br class="clear">
+
+		</div><!-- /#timeline -->
+		<span>By <a href="https://twitter.com/search?q=MeteorDhaka" target="_blank">#MeteorDhaka</a>, Credit: TimelinerJs</span>
+	</div><!-- /.container -->
+
+	<script>
+		$(document).ready(function() {
+			$.timeliner({timelineContainer:'#timeline'});
+			$('.venobox').venobox();
+		});
+
+	</script>
+
+
+</body>
